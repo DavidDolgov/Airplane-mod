@@ -1,8 +1,8 @@
 public class BonusMilesService {
 
-    public int calculate(int a) {
-        int x=20;                   // делитель для вычисления миль
-        int result=a/x;
+    public int calculate(int cost) {
+        int couter = 20;                   // делитель для вычисления миль
+        int result = cost / couter;
         return result;
     }
 
